@@ -8,7 +8,13 @@
  using the gene expression dataset GS17755, which is accessible through the Gene Expression
  Omnibus database that is collected on the basis of Gene expression profiling of blood cells
  from patients with autoimmune diseases and healthy individuals using DNA microarray
- analysis. GEO2R tool was used to find the Differential expression genes between both of the
+ analysis. 
+ <div align="center">
+ 
+ ![aaaaaaaaaaaaaaaaa](https://github.com/user-attachments/assets/f5d7ec57-68b1-4943-92c9-d6f950680a11)
+ 
+ </div>
+ GEO2R tool was used to find the Differential expression genes between both of the
  disorders Systemic lupus erthematosus and rheumotoid arthritis to identify the upregulated
  and downregulated genes expression and differences in expressoion and further to classify
  them at functionally Functional and molecular pathway analysis was done using the enrichr
@@ -48,7 +54,16 @@
 Finding DEGs in the two groups of samples under comparison was the first step using the
  shortlisted table from the GEO2R tool, there were 954 DEGs identifid in case of RA and 454
  genes in case of SLE. Data obtained was sorted with respect to p-value less than 0.05. The
- data was again filtered with p-adj(adjusted value less than 0.05. The genes obtained were the
+ data was again filtered with p-adj(adjusted value less than 0.05.
+ 
+
+<div align="center">
+ 
+![vol](https://github.com/user-attachments/assets/8b3651d2-8507-431f-afab-fd0591d9f485)
+
+</div>
+ 
+ The genes obtained were the
  differentially genes that were 954 and 454 in number Further filtering was done with respect
  to log2fold change data was filtered with a threshold of 0.5 .From the statistical analysis of
  above results gives 436 down-regulated and 517 up-regulated genes (954 in total)in case of
@@ -65,10 +80,29 @@ Finding DEGs in the two groups of samples under comparison was the first step us
  have expressed certain genes globally. The scatter figure shows the significant value vs fold
 change calculated by the GEO2R tool during differential expression analysis, with each point
  representing a gene
+<div align="center">
 
+![adj p value](https://github.com/user-attachments/assets/87607d90-74b5-45ea-a437-cde16a141eda)
 
+</div>
 
-
-
-
+<div align="center">
  
+![venn](https://github.com/user-attachments/assets/a48603b0-366a-4e6b-b982-6e2b88f7959a)
+
+</div>
+
+<div align="center">
+
+![UP REGULATED](https://github.com/user-attachments/assets/20260047-bb7a-482d-bc05-111a85371335)
+
+</div>
+
+<div align="center">
+ 
+![t stat](https://github.com/user-attachments/assets/b9991ac9-1b5b-4e94-b237-9d2692b31ad5)
+
+</div>
+
+
+
